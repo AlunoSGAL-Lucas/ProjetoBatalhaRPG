@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(180deg, #212529 9.62%, #D03389 100%);
+
+}
+
+#Logo {
+  width: 25%;
+
+}
+
+#cardpersonagem {
+
+  background: linear-gradient(180deg, #7C60AA 0%, #665F65 100%);
+  border-radius: 10px;
+
+
+  .card-body {
+    .card-title {
+      font-size: 1.5rem;
+      -webkit-text-stroke-color: #DC2519;
+      -webkit-text-stroke-width: 0.05px;
+      color: #DC2519
+    }
+
+    select {
+      color: #DC2519;
+      background-color: #5B5B5B;
+      font-size: 18px;
+      border: 0px;
+    }
+
+    p {
+      -webkit-text-stroke-color: #DC2519;
+      -webkit-text-stroke-width: 0.2px;
+      color: #DC2519
+    }
+
+    img {
+      border: 2px solid #DC2519 !important;
+    }
+  }
+}
+
+#cardinimigo {
+
+  background: linear-gradient(180deg, #F9E338 0%, #DFECC0 100%);
+  border-radius: 10px;
+
+
+  .card-body {
+    .card-title {
+      font-size: 1.5rem;
+      -webkit-text-stroke-color: #D85F0E;
+      -webkit-text-stroke-width: 0.25px;
+      color: #D85F0E;
+    }
+
+    select {
+      color: #D85F0E;
+      background-color: #B0DC24;
+      border: 0px;
+      font-size: 18px;
+    }
+
+    p {
+      -webkit-text-stroke-color: #D85F0E;
+      -webkit-text-stroke-width: 0.5px;
+      color: #D85F0E;
+    }
+
+    img {
+      border: 2px solid #D85F0E !important;
+    }
+  }
+}
+
+#evolutioncard {
+  /* Rectangle 5 */
+
+
+  background: #6C757D;
+  border-radius: 10px;
+
+  .btn-primary {
+    background-color: #0D6EFD !important;
+    border-color: #0D6EFD !important;
+  }
+
+  .btn-success {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+  }
+
+
+}
+
+.btn-danger {
+  width: 120px;
+}
+
+.btn-warning {
+  width: 120px;
+}
